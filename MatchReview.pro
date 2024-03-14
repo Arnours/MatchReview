@@ -10,13 +10,19 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    uimatchform.cpp \
+    uiteamform.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    uimatchform.h \
+    uiteamform.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    uimatchform.ui \
+    uiteamform.ui
 
 TRANSLATIONS += \
     MatchReview_fr_FR.ts
